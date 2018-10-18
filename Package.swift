@@ -154,7 +154,7 @@ let package = Package(
         .library(name: "XRay", targets: ["XRay"])
     ],
     dependencies: [
-        .package(url: "https://github.com/fruitcoder/aws-sdk-swift-core.git", .branch("master")),
+        .package(url: "https://github.com/swift-aws/aws-sdk-swift-core.git", .branch("yasumoto-post-request")),
         .package(url: "https://github.com/IBM-Swift/SwiftyJSON.git", .upToNextMajor(from: "17.0.2"))
     ],
     targets: [
